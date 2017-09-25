@@ -828,6 +828,7 @@ aside.doc-nav-widget ul.doc-nav-list li a:hover {
 }
 .hentry .entry-content ol li, .hentry .entry-content ul li {
   padding:7px 0;
+  font-size:16px;
 }
 
 .wedocs-single-wrap .wedocs-single-content article .entry-content img {
