@@ -830,5 +830,11 @@ aside.doc-nav-widget ul.doc-nav-list li a:hover {
   padding:7px 0;
 }
 
+.wedocs-single-wrap .wedocs-single-content article .entry-content img {
+    padding:0;
+    border:none;
+    margin:10px;
+}
+
 
 
