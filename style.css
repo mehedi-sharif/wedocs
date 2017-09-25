@@ -836,6 +836,16 @@ aside.doc-nav-widget ul.doc-nav-list li a:hover {
     border:none;
     margin:10px;
 }
+.wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer {
+  margin-top:100px;
+}
+.navbar-nav>li>a {
+  padding:8px 15px;
+  border-radius:3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
 
+}
 
 
