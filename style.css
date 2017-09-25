@@ -818,7 +818,17 @@ aside.doc-nav-widget ul.doc-nav-list li a:hover {
 }
 
 
-
+.article-child.well {
+  box-shadow: none;
+  border:none;
+  background-color:none;
+}
+.hentry .article-child h3 {
+  border:none;
+}
+.hentry .entry-content ol li, .hentry .entry-content ul li {
+  padding:7px 0;
+}
 
 
 
