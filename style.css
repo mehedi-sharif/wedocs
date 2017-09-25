@@ -32,13 +32,13 @@ a:hover {
   background-color: #fff;
   border: none;
   margin-bottom: 0;
-  padding:20px 0;
+  padding:10px 0;
 }
 .banner .navbar-header .navbar-brand {
   color: #000;
   background-size: contain !important;
-  margin-top: 5px;
   max-height: 38px;
+  margin-top:0;
 }
 .banner .navbar-nav {
   float: right;
