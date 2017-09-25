@@ -726,3 +726,80 @@ li.wedocs-docs-single .wedocs-doc-link a {
 .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li {
   width: 33%;
 }
+
+.wedocs-single-wrap .wedocs-single-content {
+  padding-left:15px;  
+  border:0;
+}
+.wedocs-single-wrap .wedocs-single-content .block {
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
+  padding:30px;
+  border-radius:4px;
+}
+.wedocs-feedback-wrap {
+  font-size:20px;
+  font-weight:bold;
+}
+.wedocs-feedback-wrap a {
+  padding:2px 15px 2px 15px;
+  display:inline-block;
+  font-size:14px;
+}
+.wedocs-feedback-wrap a.positive {
+  background:#90C940;  
+  box-shadow: 0 2px 0 0 #75a72f, inset 0 1px 0 0 rgba(225,225,225,0.2);
+  border:none;
+  display:inline-block;
+  margin-right:3px;
+}
+.wedocs-feedback-wrap a.negative {
+  background:#ff7165;  
+  border:none;
+  box-shadow: 0 2px 0 0 #d4584e, inset 0 1px 0 0 rgba(225,225,225,0.2);
+}
+
+.wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer time {
+  font-style:normal;
+  font-weight:500;
+  color:#777;
+}
+
+.wedocs-help-link {
+  font-weight:600;
+  display:inline-block;
+}
+
+.wedocs-help-link i {
+  color:#7FD6F7;
+  margin-right:5px;
+}
+.hentry header h1, .page-header h1 {
+  border:none;
+}
+
+.entry-content p {
+  font-size:16px;
+  line-height:24px;
+  color:#6d6b6b;
+}
+aside.doc-nav-widget h3 {
+  border-bottom:none;
+}
+aside.doc-nav-widget ul.doc-nav-list li a {
+  padding: 10px 20px;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+  
+}
+aside.doc-nav-widget ul.doc-nav-list li a:hover {
+  text-decoration: none;
+  background:#5e6ebf;
+  color:#fff;
+}
+
+
+
+
+
+

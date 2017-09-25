@@ -1,9 +1,6 @@
 <?php while (have_posts()) : the_post(); ?>
     <?php $skip_sidebar = get_post_meta( $post->ID, 'skip_sidebar', true ); ?>
-
-    <div class="col-md-12">
-
-        <article id="post-<?php the_ID(); ?>" <?php post_class( 'row' ); ?> itemscope itemtype="http://schema.org/Article">
+    <article id="post-<?php the_ID(); ?>" <?php post_class( 'post' ); ?> itemscope itemtype="http://schema.org/Article">
 
             <header class="entry-header">
                 <?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
@@ -68,7 +65,5 @@
                 }
             }
             ?>
-
-        </article>
-    </div><!-- .col-md-# -->
+    </article>
 <?php endwhile; ?>
