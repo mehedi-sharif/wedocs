@@ -67,7 +67,7 @@
 								<li><a href="#all"><?php _e('All Docs', 'wedocs'); ?></a></li>
 							</ul>
 
-							<button type="submit" class="search-submit btn btn-primary btn-lg"><?php _e('Search', 'wedocs'); ?></button>
+							<button type="submit" class="search-submit btn btn-primary btn-lg"><i class="fa fa-search"></i></button>
 						</div><!-- /btn-group -->
 					</div><!-- /input-group -->
 
