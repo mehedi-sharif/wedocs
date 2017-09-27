@@ -20,8 +20,8 @@
 <script type="text/javascript">
     jQuery('.wedocs-docs-list').masonry({
       // options
-      itemSelector: '.item',
-      columnWidth: '.item'
+      itemSelector: '.col-md-4',
+      columnWidth: 200
     });
 </script>
 
