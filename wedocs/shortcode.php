@@ -4,7 +4,7 @@
     <div class="wedocs-docs-list row">
 
         <?php foreach ($docs as $main_doc) : ?>
-            <div class="col-md-4">
+            <div class="col-md-4 item">
                 <div class="wedocs-docs-single">
                     <h3><a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>"><?php echo $main_doc['doc']->post_title; ?></a></h3>
 
