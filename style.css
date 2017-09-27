@@ -743,7 +743,7 @@ li.wedocs-docs-single .wedocs-doc-link a {
   font-weight: 600;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li {
-  width: 33%;
+  width: 33%!important;
 }
 
 .wedocs-single-wrap .wedocs-single-content {
