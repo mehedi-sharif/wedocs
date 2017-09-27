@@ -693,6 +693,7 @@ a img.aligncenter {
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
   padding:30px;
   border-radius:5px;
+  margin-bottom:30px;
 }
 .wedocs-shortcode-wrap .wedocs-docs-list 
 .wedocs-docs-single h3 {
