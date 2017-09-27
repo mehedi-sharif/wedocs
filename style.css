@@ -679,14 +679,14 @@ a img.aligncenter {
 
 
 /**/
-.wedocs-shortcode-wrap .col-md-4:nth-child(3n+3):after {
+/*.wedocs-shortcode-wrap .col-md-4:nth-child(3n+3):after {
     content: "";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
     zoom: 1;
-}
+}*/
 .wedocs-shortcode-wrap .wedocs-docs-list 
 .wedocs-docs-single {
   border:none;
