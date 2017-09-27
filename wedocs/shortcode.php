@@ -1,10 +1,10 @@
 <?php if ( $docs ) : ?>
 
 <div class="wedocs-shortcode-wrap">
-    <div class="wedocs-docs-list col-<?php echo $col; ?>">
+    <div class="wedocs-docs-list">
 
         <?php foreach ($docs as $main_doc) : ?>
-            <div class="wedocs-docs-single- col-md-3">
+            <div class="col-md-4 wedocs-docs-single">
                 <h3><a href="<?php echo get_permalink( $main_doc['doc']->ID ); ?>"><?php echo $main_doc['doc']->post_title; ?></a></h3>
 
                 <?php if ( $main_doc['sections'] ) : ?>

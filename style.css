@@ -679,44 +679,47 @@ a img.aligncenter {
 
 
 /**/
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single {
   border:none;
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
   padding:30px;
   border-radius:5px;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single h3 {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single h3 {
   padding:0;
   border:0;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size:20px;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-sections {
-
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-sections {
+  padding-left:0;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-sections li {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-sections li {
   list-style:none;
   padding:6px 0;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single h3 a {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single h3 a {
   color:#5e6ebf;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-sections li a { 
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-sections li a { 
   color:#000;
   display:block;
   padding-left:20px;
   position:relative;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-sections li a:hover { 
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-sections li a:hover { 
   color:#5e6ebf;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-sections li a:before  {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-sections li a:before  {
   content: "\f192";
   font:normal normal normal 14px/1 FontAwesome;
   position: absolute;
@@ -725,25 +728,25 @@ li.wedocs-docs-single .wedocs-doc-sections li a:before  {
   font-size: 14px;
   color: #555;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-link {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-link {
   background:none;
   border:none;
   padding:0;
   text-align: center;
-  margin-top:20px;
+  margin-top:30px;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list 
-li.wedocs-docs-single .wedocs-doc-link a {
+.wedocs-shortcode-wrap .wedocs-docs-list 
+.wedocs-docs-single .wedocs-doc-link a {
   display:inline-block;
   color:#5e6ebf;
-  padding:10px 40px;
+  padding:8px 30px;
   border:2px solid #5e6ebf;
   border-radius:4px;
   font-weight: 600;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li {
-  width: 33%!important;
+.wedocs-shortcode-wrap .wedocs-docs-list.col-2 > li {
+  width: 33%;
 }
 
 .wedocs-single-wrap .wedocs-single-content {
