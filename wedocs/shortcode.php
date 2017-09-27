@@ -1,7 +1,7 @@
 <?php if ( $docs ) : ?>
 
-<div class="wedocs-shortcode-wrap">
-    <div class="wedocs-docs-list">
+<div class="wedocs-shortcode-wrap container">
+    <div class="wedocs-docs-list row">
 
         <?php foreach ($docs as $main_doc) : ?>
             <div class="col-md-4 wedocs-docs-single">
