@@ -679,7 +679,7 @@ a img.aligncenter {
 
 
 /**/
-.wedocs-shortcode-wrap .col-md-3:after {
+.wedocs-shortcode-wrap .col-md-4:after {
     content: "";
     display: block;
     height: 0;
