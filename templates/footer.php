@@ -17,12 +17,12 @@
     </div>
 </footer>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     jQuery('.wedocs-docs-list').masonry({
       // options
       itemSelector: '.wedocs-docs-single',
       columnWidth: 200
     });
-</script>
+</script> -->
 
 <?php wp_footer(); ?>
